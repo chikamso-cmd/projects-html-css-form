@@ -88,7 +88,7 @@ border: 2px solid green;
         transform: rotateY(8em);
     }
 }
-span{
+.check{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -161,4 +161,19 @@ span a{
     color: rgb(114, 107, 107);
     margin-left: .3em;
     margin-top: .1em;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    /* position: absolute; */
+    transform: translate(0, 59%);
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
