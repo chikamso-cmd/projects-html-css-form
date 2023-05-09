@@ -1,0 +1,123 @@
+@media (max-width: 1024px) {
+    #container{
+  height: 31rem;
+    }
+  }
+  @media (max-width: 968px) {
+    #container{
+  height: 26rem;
+  bottom: 1em;
+    }
+    .profile-picture{
+      width: 80px;
+      height: 80px;
+      /* margin-inline: auto; */
+      text-align: center;
+    }
+    .user{
+      font-size: 50px;
+    }
+    .fa-user-o{
+      font-size: 10px;
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
+  @media (max-width: 600px) {
+    #container{
+  position: relative;
+  height: 30rem;
+  margin-bottom: 11em;
+    }
+    .profile-picture{
+      width: 80px;
+      height: 80px;
+    }
+  }
+  @media (max-width: 425px) {
+    #container{
+      width: 25em;
+    }
+    .profile-picture{
+      width: 80px;
+      height: 80px;
+    }
+    .fa-instagram,
+    .fa-facebook,
+    .fa-google,
+    .fa-pinterest,
+    .fa-youtube-play{
+      font-size: 10px;
+      margin: 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    #container{
+      width: 22em;
+      padding: 0;
+    }
+    .profile-picture{
+      width: 80px;
+      height: 80px;
+      top: 2em;
+    }
+    label, .check a{
+      font-size: 10px;
+    }
+    button, .button a{
+      font-size: 1em;
+    }
+    .fa-instagram,
+    .fa-facebook,
+    .fa-google,
+    .fa-pinterest,
+    .fa-youtube-play{
+      font-size: 10px;
+      margin: 5px;
+    }
+  }
+  @media (max-width: 320px) {
+    #container{
+      width: 18em;
+      padding: 0;
+    }
+    .profile-picture{
+      width: 80px;
+      height: 80px;
+      /* transform: translate(3em, 0%); */
+    }
+    label, .check a{
+      font-size: 10px;
+    }
+    button, .button a{
+      font-size: 1em;
+    }
+    input[type=email],
+    input[type=password]{
+      width: 70%;
+      /* margin: 0 auto; */
+      display: block;
+      left: 0;
+      height: 2.5em;
+    }
+    .check{
+      display: block;
+      gap: 10px;
+    }
+    label{
+      margin: 20px;
+    }
+    .button, .button a{
+      /* display: block; */
+      /* left: 0; */
+      width: 66%;
+    }
+    .fa-instagram,
+.fa-facebook,
+.fa-google,
+.fa-pinterest,
+.fa-youtube-play{
+  font-size: 10px;
+  margin: 0;
+}
+  }

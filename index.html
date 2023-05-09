@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animated-form</title>
     <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/ffe89e1055.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,34 +18,42 @@
   </head>
   <body>
     <div id="container">
+      <h1>login-form</h1>
       <!-- <div class="profile-picture"><img src="bg.jpg" alt=""></div> -->
+
+      <div class="profile-picture">
+        <span class="user"><i class="fa fab far fa-user"></i></span>
+      </div>
       <form action="" method="post">
-        <div class="modal">
-          <span class="user"><i class="fa fa-user-o"></i></span>
-        </div>
         <input type="email" name="" id="" placeholder="email" required />
-        <input type="password" name="" id="" placeholder="password" required />
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="password"
+          required
+          max="8"
+          min="5"
+        />
         <span class="check">
           <label for="remember me">
             <input type="checkbox" name="" id="" placeholder="" /> remember me
           </label>
           <a href="">forgot password?</a>
         </span>
-        <button class="btn">login</button>
+        <div class="button">
+          <button class="log">login</button>
+          <a href="signup.html"> signup</a>
+        </div>
         <!-- can change the class to any name -->
       </form>
-      <!-- <span class="social">
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-pinterest"></i>
-        </span> -->
-      <button class="submit-btn" onclick="rotate()" id="submit">sign-up</button>
-      <!-- <script>
-            function rotate(){
-                document.getElementById('submit').style.rotate = '360deg';
-            };
-        </script> -->
+      <div class="social">
+        <i class="fa fab fa-google"></i>
+        <i class="fa fab fa-instagram"></i>
+        <i class="fa fab fa-facebook"></i>
+        <i class="fa fab fa-pinterest"></i>
+        <i class="fa fab fa-youtube-play"></i>
+      </div>
     </div>
   </body>
 </html>
